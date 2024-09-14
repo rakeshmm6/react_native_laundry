@@ -4,16 +4,17 @@ import {getAuth} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6Irh0Xs_Jrt_6IOUM2mz6vxZm3q52HoY",
-  authDomain: "laundry-application-7f4c7.firebaseapp.com",
-  projectId: "laundry-application-7f4c7",
-  storageBucket: "laundry-application-7f4c7.appspot.com",
-  messagingSenderId: "571088013444",
-  appId: "1:571088013444:web:6a5e8ded1f44846994dad1"
+  apiKey: "AIzaSyCQxlg_v3sMI6UA7RMPManyoZ9PLI5BIc0",
+  authDomain: "laudrykart.firebaseapp.com",
+  projectId: "laudrykart",
+  storageBucket: "laudrykart.appspot.com",
+  messagingSenderId: "204429677131",
+  appId: "1:204429677131:web:7bf1d190c0e67c93a5f3ce"
 };
 
-
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 
 const auth = getAuth(app);
 
